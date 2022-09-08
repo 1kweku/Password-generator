@@ -12,6 +12,7 @@ function randomInt(min, max) {
 }
 //function created to randomize data and floor value
 function getRandomItem(list){
+  console.log(list)
   return list[Math.floor(Math.random()*list.length - 1)]
 }
 
@@ -62,7 +63,6 @@ console.log(characterData)
 console.log(generatedPassword)
   return generatedPassword
 }
-
 
 // Write password to the #password input
 function writePassword() {
